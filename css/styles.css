@@ -3,8 +3,8 @@ font-family: "Roboto", sans-serif; */
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--navy-blue);
-    background-color: var(--white);
+    color:#434455 ;
+    background-color: #fff;;
 }
 
 ul,ol {
@@ -27,6 +27,45 @@ a {
 
 .header-logo .logo-part {
     color: #2e2f42;
+}
+
+.page-section {
+background-color: #2e2f42;
+}
+
+.main-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.08;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #4d5ae5;
+}
+
+.section-two { 
+    background-color: #f4f4fd;
+
+}
+.team-section-card {
+    background-color: #fff;
+}
+
+.team-section, .team-section-name,
+.portfolio-section { 
+    color: #2e2f42;
+    text-align: center;
+    
+}
+
+.section-paragraph {
+    text-align: center;
+    color: #434455;
 }
 
 .footer-logo .logo-part{
@@ -57,4 +96,15 @@ a {
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+}
+.text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
