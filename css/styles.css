@@ -36,16 +36,24 @@ background-color: #2e2f42;
 .main-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.08;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
 .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
     color: #fff;
     background-color: #4d5ae5;
+}
+.button:hover, .button:focus {
+    background-color: #404bbf
 }
 
 .section-two { 
@@ -67,7 +75,26 @@ background-color: #2e2f42;
     text-align: center;
     color: #434455;
 }
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+}
 
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .footer-logo .logo-part{
     color: #f4f4fd;
 }
